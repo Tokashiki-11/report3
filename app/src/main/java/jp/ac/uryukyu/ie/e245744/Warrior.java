@@ -1,8 +1,8 @@
 package jp.ac.uryukyu.ie.e245744;
 
-public class Warrior extends LivingThing{
-    public Warrior(String name, int hitPoint, int attack){
-        super(name, hitPoint, attack); //LivingThingクラスのコンストラクタを呼び出し
+public class Warrior extends Hero{
+    public Warrior(String name, int maximumHP, int attack){
+        super(name, maximumHP, attack); //Heroクラスのコンストラクタを呼び出し
     }
 
     /**
